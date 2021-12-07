@@ -3,18 +3,19 @@ import java.util.ArrayList;
 
 public class Object {
 
-	public static void main(String[] args) 
+	public static void main(String[] args1) 
 	{
-			ArrayList <Recipe> recipes = new ArrayList();
+		
+		ArrayList <Recipe> recipes = new ArrayList();
 		//New Recipe
 		String ingredients1[] = {"5 EL: Zucker, braun", "3 EL: Paprikapulver, edelsüß", "1 EL: Salz", "1 EL: Pfeffer", "1 EL: Paprikapulver, scharf", 
 									"1 EL: Chillipulver", "1 EL: Zwiebelpulver", "1 EL: Knoblauchpulver", "300 ml: Orangensaft", "100 ml: Whiskey (Jack Daniels)",
 									"150 ml: Ketchup", "1 EL: Worcestersauce", "2 EL: Marinade (von dem Rub)", "2 EL: Honig", "50 ml: BBQ-Sauce", "6 kg: Rippchen (Loin Ribs)" };
 
 		Recipe BBQSapreribs = new Recipe();
-		BBQSapreribs.name = "BBQ Spareribs";
-		BBQSapreribs.flag = 0;
-		BBQSapreribs.calories = 0;
+		BBQSapreribs.name        = "BBQ Spareribs";
+		BBQSapreribs.flag        = 0;
+		BBQSapreribs.calories    = 0;
 		BBQSapreribs.ingredients = ingredients1;
 		//https://www.chefkoch.de/rezepte/2338561372249308/Koestliche-BBQ-Spareribs-fuer-Smoker-und-Backofen-mit-Sosse-und-Gewuerzmischung.html
 		recipes.add(BBQSapreribs);
@@ -113,3 +114,4 @@ public class Object {
 
 } 
 	}
+
